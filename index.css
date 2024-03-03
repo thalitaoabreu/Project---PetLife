@@ -125,6 +125,17 @@ h2 {
     border-left: 1px solid #FF725E;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
+    /* Estilos da caixinha de perguntas */
+    padding: 0 24px ;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
 }
 
